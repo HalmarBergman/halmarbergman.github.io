@@ -53,11 +53,11 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import ReadmeModal from "./views/ReadmeModal.vue";
-import PortfolioModal from "./views/PortfolioModal.vue";
-import SocialsModal from "./views/SocialsModal.vue";
-import TrashModal from "./views/TrashModal.vue";
-import Scriptie from "./components/Scriptie.vue";
+import ReadmeModal from "./src/views/ReadmeModal.vue";
+import PortfolioModal from "./src/views/PortfolioModal.vue";
+import SocialsModal from "./src/views/SocialsModal.vue";
+import TrashModal from "./src/views/TrashModal.vue";
+import Scriptie from "./src/components/Scriptie.vue";
 import "@/assets/css/main.scss";
 
 @Component({

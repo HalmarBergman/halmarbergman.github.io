@@ -97,6 +97,17 @@
     margin-bottom: 5px;
     color: #303030;
   }
+  &.function {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #5c5c5c;
+  }
+  &.workplace {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #b0956f;
+  }
 }
 .contentsubtitles {
   margin-bottom: 25px;
@@ -188,4 +199,14 @@
   margin-right: 10px;
   align-items: left;
   text-decoration: none;
+}
+.contentimages {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-left: 25px;
+  .contentimage {
+    width: 900px;
+  }
 }

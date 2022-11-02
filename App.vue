@@ -70,7 +70,7 @@ import "@/assets/css/main.scss";
   },
 })
 export default class App extends Vue {
-  appstate = "desktop";
+  appstate = "readme";
 
   trash() {
     this.appstate = "trash";
